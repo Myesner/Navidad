@@ -852,3 +852,13 @@ opacity: 1;
 transform: rotate(30deg);
 }
 }
+/* Efecto al hacer clic (para dispositivos táctiles) */
+.regalo.abierta .tapa {
+    top: -60px;
+    transform: rotateZ(10deg);
+    left: 10px;
+}
+
+.regalo.abierta .promo {
+    top: -50px;
+}
